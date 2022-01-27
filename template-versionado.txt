@@ -1,0 +1,22 @@
+/**
+*@challenge: jQuery: Tercera Entrega del Proyecto Final
+*
+*@version: v1.3.0
+*@author: Ezequiel Lage
+*@fecha: 20/01/22
+*
+*History:
+* -v1.0.0 23/11/21 Conceptos generales: sintaxis y variables
+* -v1.0.1 25/11/21 Control de flujos
+* -v1.0.2 30/11/21 Ciclos/iteraciones
+* -v1.0.3 02/12/21 Programacion avanzada con funciones
+* -v1.0.4 07/12/21 Objetos 
+* -v1.0.5 09/12/21 Incorporar Arrays -- Ordenar un array de objetos
+* -v1.1.0 09/12/21 Primera Entrega del Proyecto Final
+* -v1.1.1 21/12/21 DOM - Interactuar con HTML
+* -v1.1.2 23/12/21 Eventos
+* -v1.2.0 28/12/21 Segunda Entrega del Proyecto Final
+* -v1.2.1 11/01/22 Selectores y eventos
+* -v1.2.2 13/01/22 Efectos y animaciones con jQuery
+* -v1.2.3 20/01/22 AJAX con jQuery
+*/

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Arreglar Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="estilo.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header class="hedear" id="inicio">
+        <img src="/imagenes/hamburguesa.png" alt="" class="hamburguer">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#experto">Expertos</a>
+            <a href="#contacto">Contactos</a>
+        </nav>
+        <div class="contenedor head">
+            <h1>Convertimos tus sueños en realidad</h1>
+            <p class="copy">Viví una aventura única y conoce los mejores lugares del mundo.</p>
+        </div>
+    </header>
+        <main>
+            <section class="contenedor" id="servicio">
+                <h2 class="subtitulo">Nuestro servicio</h2>
+                <div class="contenedor-servicio">
+                    <img src="/imagenes/checklist.svg" alt="">
+                    <div class="checklist-servicio">
+                        <div class="servicie">
+                            <h3 class="n-servicie"><span class="number">1</span>Viajes</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae perferendis, officia pariatur quasi ipsum illo beatae natus omnis nostrum? Magni?</p>
+                        </div>
+                        <div class="servicie">
+                            <h3 class="n-servicie"><span class="number">2</span>Alquiler de Vehículos</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae perferendis, officia pariatur quasi ipsum illo beatae natus omnis nostrum? Magni?</p>
+                        </div>
+                        <div class="servicie">
+                            <h3 class="n-servicie"><span class="number">3</span>Próximamente Hotelería</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae perferendis, officia pariatur quasi ipsum illo beatae natus omnis nostrum? Magni?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="gallery" id="portafolio">
+                <div class="contenedor">
+                    <h2 class="subtitulo">Nuestros Destinos:</h2>
+                    <div class="contenedor-galeria">
+                        <img src="/imagenes/rio-brasil.jpg" alt="" class="img-galeria">
+                        <img src="/imagenes/amsterdam-holanda.jpg" alt="" class="img-galeria">
+                        <img src="/imagenes/barcelona-españa.jpg" alt="" class="img-galeria">
+                        <img src="/imagenes/new-york-usa.jpg" alt="" class="img-galeria">
+                        <img src="/imagenes/paris-francia.jpg" alt="" class="img-galeria">
+                        <img src="/imagenes/villages-italia.jpg" alt="" class="img-galeria">
+                    </div>
+                </div>
+            </section>
+
+            <section class="imagen-light">
+                <img src="/imagenes/close.png" alt="" class="close">
+                <img src="" alt="" class="agregar-imagen">
+            </section>
+
+            <section class="contenedor" id="expertos">
+                <h2 class="subtitulo">Alquiler de Vehículos</h2>
+                <section class="experts">
+                    <div class="cont-expert">
+                        <img src="/imagenes/ford-mustang.jpg" alt="">
+                        <h3 class="n-expert">Ford Mustang</h3>
+                    </div>
+                    <div class="cont-expert">
+                        <img src="/imagenes/mercedes-benz-amg.jpg" alt="">
+                        <h3 class="n-expert">Mercedes Benz amg</h3>
+                    </div>
+                    <div class="cont-expert">
+                        <img src="/imagenes/porsche-cayman.jpg" alt="">
+                        <h3 class="n-expert">Porsche Cayman</h3>
+                    </div>
+                </section>
+            </section>
+            <section>
+                <!-- Su Viaje -->
+                <div id="todo">
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                    <h2 class="sub-header">Elige tu Viaje</h2>
+                    <form>
+                        <!-- Seleccion de pais -->
+                        <div class="form-group col-xs-12 col-sm-12">
+                            <div class="col-sm-10">
+                                <select id="inputSelectPais" class="form-control">
+                                    <option value="">Selecciona el Destino</option>
+                                    <option value="Rio de Janeiro-Brasil">Rio de Janeiro-Brasil</option>
+                                    <option value="Amsterdam-Holanda">Amsterdam-Holanda</option>
+                                    <option value="shopping.png">Barcelona-España</option>
+                                    <option value="gym.png">New York-USA</option>
+                                    <option value="laundry.png">Paris-Francia</option>
+                                    <option value="laundr.png">Villages-Italia</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Seleccion de auto -->
+                        <div class="form-group col-xs-12 col-sm-12">
+                            <div class="col-sm-10">
+                                <select id="inputSelectAuto" class="form-control">
+                                    <option value="">Selecciona el Auto</option>
+                                    <option value="class.png">Ford Mustang</option>
+                                    <option value="cook.png">Mercedes Benz amg</option>
+                                    <option value="shopping.png">Porsche Cayman</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Fecha de salida -->
+                        <div class="form-group col-xs-12 col-sm-12">
+                            <div class="col-sm-10">
+                                <h4>Desde:</h4>
+                                <input type="date" class="form-control" id="inputDateDesde" placeholder="Fecha">
+                            </div>
+                        </div>
+                        <!-- Fecha de vuelta -->
+                        <div class="form-group col-xs-12 col-sm-12">
+                            <div class="col-sm-10">
+                                <h4>Hasta:</h4>
+                                <input type="date" class="form-control" id="inputDateHasta" placeholder="Fecha">
+                            </div>
+                        </div>
+                        <!--<div class="form-group col-xs-12 col-sm-12">
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="inputDescription" placeholder="Agrega alguna descripción">
+                            </div>
+                        </div>-->
+                        <div class="form-group col-xs-12 col-sm-12">
+                            <div class="col-sm-10">
+                                <button type="submit" id="btnAddTodo"class="btn btn-success">Agregar</button>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="row" >
+                        <div id="result" class="col-xs-12 col-sm-12">
+                            <!-- Agregar "Cargado con exito" -->
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- Lista de Todo -->
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                    <h2 class="sub-header">
+                        Listado TODO
+                        <span style="font-size:18px;"><a href="#" id="seeTrash">( Ver Papelera )</a></span>
+                    </h2>
+                    
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                        <thead>
+                            <tr>
+                            <th></th>  
+                            <th>Destino</th>
+                            <th>Vehiculo</th>
+                            <th>Fecha de Salida</th>
+                            <th>Fecha de Llegada</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tableTodo">
+                            
+                        </tbody>
+                        </table>
+                    </div>
+                    </div>
+        </main>
+        <footer id="contacto">
+            <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Viajes Lujosos</h2>
+                    <p>Somos expertos en la creacion de tus sueños</p>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>  
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i> 
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>  
+                    </a>
+                </div>
+            </div>
+            <div class="line"></div>
+        </footer>
+
+        <script src="/js/menu.js"></script>
+        <script src="/js/lightbox.js"></script>
+        <script src="/js/elements.js"></script>
+</body>
+</html>

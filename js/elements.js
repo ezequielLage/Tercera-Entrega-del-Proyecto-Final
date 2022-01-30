@@ -39,11 +39,9 @@ const addNewTodoList = () =>{
     todoList.forEach((element,i) => {
         tr = document.createElement('tr');
         tr.setAttribute("id", i);
-        tr.innerHTML = `<p>
-                        <p>${element.destino}</p>
-                        </td>
-                        <td>${element.vehiculo}</td>
+        tr.innerHTML = `<td> Su viaje </td>
                         <td>${element.destino}</td>
+                        <td>${element.vehiculo}</td>
                         <td>${element.DateDesde}</td>
                         <td>${element.DateHasta}</td>`;
         tableTodo.appendChild(tr);
@@ -61,7 +59,9 @@ if(todoList.length > 0) addNewTodoList();
 
 const addTodo = () =>{
     
-    let destino = inputSelectPais.option;
+    //let destino = inputSelectPais.option[inputSelectPais.selectedIndex].value;
+    //let vehiculo = inputSelectAuto.option[inputSelectAuto.selectedIndex].value;
+    let destino = inputSelectPais.value;
     let vehiculo = inputSelectAuto.value;
     let DateDesde = inputDateDesde.value;
     let DateHasta = inputDateHasta.value;
@@ -72,10 +72,7 @@ const addTodo = () =>{
     addNewTodoList();
     resetInputs();
     inicialize();
-
 }
-
-
 
 
 
@@ -84,3 +81,8 @@ btnAddTodo.onclick = (e) =>{
     e.preventDefault();
     addTodo();
 }
+
+
+
+
+//localStorage.clear()

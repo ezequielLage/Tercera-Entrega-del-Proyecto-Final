@@ -21,7 +21,6 @@ font-family: 'Open Sans', sans-serif;
 
 header{
     height: 100vh;
-    background-color: linear-gradient(to top, rgba(161, 140, 209, 0.507) 0%, rgba(251, 194, 235, 0.5) 100%), url(/imagenes/6.jpg);
     background-image: url(/imagenes/woman.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,13 +141,37 @@ header{
     flex-wrap: wrap;
 }
 
-.img-galeria{
+/*.img-galeria{
     width: 30%;
     display: block;
     margin-bottom: 15px;
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
     cursor: pointer;
+}*/
+
+.img-text{
+    width: 30%;
+    margin: 5px;
+    display: block;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
+
+.img-galeria{
+    width: 100%;
+    height: 80%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.text-galeria{
+    width: 100%;
+    height: 20%;
+    padding: 2px;
+    text-align: center;
+}
+
+
+
 
 .imagen-light{
     position: fixed;
@@ -164,7 +187,7 @@ header{
     transition: trnsform .2s ease-in-out;
 }
 
-.show{
+.show1{
     transform: translate(0);
 }
 
@@ -176,7 +199,7 @@ header{
     transition: transform .3s .2s;
 }
 
-.showImage{
+.showImage1{
     transform: scale(1);
 }
 

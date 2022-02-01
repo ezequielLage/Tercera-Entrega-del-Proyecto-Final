@@ -13,8 +13,8 @@ imagenes.forEach(imagen=>{
 
 contenedorLight.addEventListener("click", (e)=>{
     if(e.target !== imagenesLight){
-        contenedorLight.classList.toggle("show");
-        imagenesLight.classList.toggle("showImage");
+        contenedorLight.classList.toggle("show1");
+        imagenesLight.classList.toggle("showImage1");
         hamburguer1.style.opacity = "1";
     };
 });
@@ -22,7 +22,7 @@ contenedorLight.addEventListener("click", (e)=>{
 
 const aparecerImagen = (imagen)=>{
     imagenesLight.src = imagen;
-    contenedorLight.classList.toggle("show");
-    imagenesLight.classList.toggle("showImage");
+    contenedorLight.classList.toggle("show1");
+    imagenesLight.classList.toggle("showImage1");
     hamburguer1.style.opacity = "0";
 };
